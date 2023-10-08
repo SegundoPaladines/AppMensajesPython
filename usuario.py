@@ -1,5 +1,6 @@
 class Usuario:
-    def __init__(self, nombre, address, password):
+    def __init__(self, nombre, password, address, port):
         self.nombre = nombre
-        self.add = address
         self.password = password
+        self.add = address
+        self.port  = port
